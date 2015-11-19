@@ -353,7 +353,7 @@ ln -s /opt/drush/drush /usr/bin/drush
 
 <b>OpenOffice</b>  
 
-chown $APACHE_USER:$APACHE_USER `echo $( getent passwd "$APACHE_USER" | cut -d: -f6 )`  
+<code>chown $APACHE_USER:$APACHE_USER `echo $( getent passwd "$APACHE_USER" | cut -d: -f6 )`</code>  
 
 cd /etc/init.d && wget --no-check-certificate https://raw.github.com/discoverygarden/openoffice-init-script/master/openoffice && chmod a+x openoffice  
 
