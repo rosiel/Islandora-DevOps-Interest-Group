@@ -461,7 +461,7 @@ echo "apc.shm_size = 64M" >> $APC_CONFIG_FILE
 
 _Run mysql_secure_installation to ensure security_  
 
-MYSQL=`which mysql`  
+MYSQL=\`which mysql\`  
 
 $MYSQL -uroot -p$DB_ROOT_PASSWORD -e "$SQL"  
 
