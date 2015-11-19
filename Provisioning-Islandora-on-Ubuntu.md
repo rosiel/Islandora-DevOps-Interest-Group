@@ -165,6 +165,8 @@ _should return result_
 
 gs --version  
 
+_will return 9.05 after logging out and in again._
+
 <b>ffmpeg</b>  
 
 mkdir ~/ffmpeg-source  
