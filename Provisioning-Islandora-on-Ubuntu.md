@@ -138,7 +138,7 @@ apt-get -y install python-software-properties && add-apt-repository -y ppa:webup
 
 Add optional multiverse repos in /etc/apt/sources.list  
 
-Uncomment each line in this file that ends in multiverse.
+Uncomment each line in this file that ends in multiverse, then run apt-get update again.
 
 Software Dependencies installed by Apt-Get Package Manager
 _accept license agreement and enter root password when asked_
